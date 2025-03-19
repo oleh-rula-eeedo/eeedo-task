@@ -1,0 +1,16 @@
+1. Import persons.json in App.tsx
+2. Create typescript interface for person in that array
+3. Render persons, print first name using ordered list in html. Use the interface you created.
+4. Change ordered list to be a div element. Add a 1px wide black border to the div and padding of 10px.
+5. Now print person's title with appropriate heading as combination of first_name and last_name separated with space.
+6. Print city as plain text under heading as paragraph.
+7. Show person's job if it includes word: 'engineer'.
+8. Create a button inside person's div that hides that user
+9. Create a button above the list which resets hidden users
+10. Filter list based on first_name + last_name while user types in input field
+
+Bonus:
+
+11. Add lodash, debounce filtering by 250ms so filtering only works when you stop typing for 250ms
+12. Animate hiding the user so it fades away over 2 seconds.
+
