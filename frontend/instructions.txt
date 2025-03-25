@@ -1,16 +1,48 @@
-1. Import persons.json in App.tsx
-2. Create typescript interface for person in that array
-3. Render persons, print first name using ordered list in html. Use the interface you created.
-4. Change ordered list to be a div element. Add a 1px wide black border to the div and padding of 10px.
-5. Now print person's title with appropriate heading as combination of first_name and last_name separated with space.
-6. Print city as plain text under heading as paragraph.
-7. Show person's job if it includes word: 'engineer'.
-8. Create a button inside person's div that hides that user
-9. Create a button above the list which resets hidden users
-10. Filter list based on first_name + last_name while user types in input field
+1.
+Import persons.json in App.tsx.
+Print out the list with console.log.
 
-Bonus:
+2.
+Create typescript interface for a person.
 
-11. Add lodash, debounce filtering by 250ms so filtering only works when you stop typing for 250ms
-12. Animate hiding the user so it fades away over 2 seconds.
+3.
+Let's render persons.
+Using html's ordered list, print first name. 
+Use the interface you created.
 
+4.
+Let's drop the whole ordered list
+Change ordered list to a wrapper div and use div for each person too.
+
+For styles, add at least:
+- 1px black border for both wrapper and each person
+- 10px padding for each person
+
+5.
+Now print person's title as combination of first_name and last_name separated with space.
+Use appropriate heading tag.
+
+6.
+Print person's city under heading as span element.
+
+7.
+Show person's job if it includes: 'engineer'. Otherwise do not show.
+
+8.
+For each person, there should be a button that hides the person.
+
+9.
+Create a reset button which shows all the users again.
+
+10.
+Filter list based on first_name + last_name while user types in input field.
+
+Bonus points:
+
+11. 
+Debounce filtering by 250ms.
+Filtering should only work when you stop typing for 250ms
+
+12.
+Animate hiding the user.
+It should fade away in 2000ms.
